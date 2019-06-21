@@ -1,0 +1,49 @@
+.homestyle{
+	width: 110px;
+	height: 50px;
+	border: 1px solid white;
+	margin-left: 45%;
+	margin-top: 25%;
+}
+.homestyle a{
+	font-family: cursive;
+	font-size: large;
+	font-weight: bolder;
+	border: 0px;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+	
+}
+
+a:link{
+	color: white ;
+	text-decoration: none;
+	font-size: large;
+	font-weight: bold;
+	font-family: cursive;
+}
+
+a:hover{
+	color: #C0C0C0;
+	text-decoration: none;
+	font-size: large;
+	font-weight: bolder;
+	font-family: cursive;
+}
+
+a:visited{
+	color: white;
+	text-decoration: none;
+	font-size: large;
+	font-weight: bold;
+	font-family: cursive;
+}
+
+a:active{
+	color: #C0C0C0;
+	text-decoration: none;
+	font-size: large;
+	font-weight: bolder;
+	font-family: cursive;
+}

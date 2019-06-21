@@ -1,0 +1,44 @@
+
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>aboutus.html</title>
+	
+    <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+    <meta http-equiv="description" content="this is my page">
+    <meta http-equiv="content-ty pe" content="text/html; charset=UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="./bulb.css">
+
+  </head>
+  
+  <body>
+  <div class="style1">
+   <ul class="ulstyle">
+   <li><a href="login new.html">LOGIN/OUT</a></li>
+   <li><a href="product.html">PRODUCT</a></li>
+   <li><a href="%=path%>/shopping""">SHOPCART</a></li>
+   <li><a href="home.jsp">HOME</a></li>
+   <li><a href="#"><img src="image/1.jpg" width=120px height=50px/></a></li>
+   </ul>
+   </div>
+   <div class="style22">
+   
+   about us information
+   
+
+   
+   </div>
+   <div class="style3">
+   <ul class="ulstyle2">
+   <li style="font-family: cursive; color: white;" ><a href="home.jsp"><img src="image/home.jpg"></a></li>
+   <li style="font-family: cursive; color: white;" ><a href="test.jsp"><img src="image/buy.jpg"></a></li>
+   <li style="font-family: cursive; color: white;" >LEGAL NOTICE<br/>Privacy ststement<br/>Copyright statement<br/>Copyright&copy;Group1</li>
+   </ul>
+   </div>
+  </body>
+</html>
